@@ -30,13 +30,25 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain how to build stateful class components.
 
+   - You need a constructor super and a state aswell as a render function to be able to render the jsx
+
 2. Describe the different phases of the component lifecycle.
+
+   - Mounting, Updating, and Unmounting.
 
 3. Demonstrate an understanding of class component lifecycle methods.
 
+- Mounting. These methods are called in the following order when an instance of a component is beingcreated and inserted into the DOM:
+- Updating. An update can be caused by changes to props or state. ...
+- Unmounting. This method is called when a component is being removed from the DOM
+
 4. Define stateful logic.
 
+- is any code that uses state
+
 5. Describe how to test a React component with React Testing Library.
+
+   - you make a new file for what you want to test. import your testing library with render and firevent import the file you want to test. create a testf function inside that function is where the testing is going to happen.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
